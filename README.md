@@ -31,6 +31,14 @@ npm start
 ```bash
 http://localhost:3000
 ```
+## PostgreSQL Configuration
+Make Sure you have all this:-
+```bash
+DATABASE - jdbc:postgresql://localhost:5432/telusko
+username - postgres
+password - Jay*729852#
+```
+If not change the Configuration accordingly in ***application.properties*** file in your backend.
 ### Important Note
 
 If you have any problem in running fronend (npm start) then there must be conflict between the packages you have installed. To resove it you can run:-
